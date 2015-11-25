@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CD99A5CB-D204-4630-8193-9575CCB033F9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>QHC</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>f4d396f1-34ce-7d4f-8902-f5796eb7054d++4318</key>
+		<string>http://zhang.xj@192.168.0.19:8080/svn/O2O/IOS</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>QHC/QHC.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>f4d396f1-34ce-7d4f-8902-f5796eb7054d++4318</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>f4d396f1-34ce-7d4f-8902-f5796eb7054d++4318</key>
+		<string>http://zhang.xj@192.168.0.19:8080/svn/O2O</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://zhang.xj@192.168.0.19:8080/svn/O2O/IOS/QHC/QHC.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>f4d396f1-34ce-7d4f-8902-f5796eb7054d++4318</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>f4d396f1-34ce-7d4f-8902-f5796eb7054d++4318</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PHC_IOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

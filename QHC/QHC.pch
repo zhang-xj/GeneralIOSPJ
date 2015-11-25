@@ -1,0 +1,148 @@
+//
+//  QHC.pch
+//  QHC
+//
+//  Created by qhc2015 on 15/6/5.
+//  Copyright (c) 2015年 qhc2015. All rights reserved.
+//
+#import "UIColor+Background.h"
+
+#ifdef __OPTIMIZE__
+    # define NSLog(...) {}
+    #ifndef BASE_URL
+    #define BASE_URL @"http://115.159.16.143/"
+    #endif
+#else
+    # define NSLog(...) NSLog(__VA_ARGS__)
+    #ifndef BASE_URL
+//    #define BASE_URL @"http://192.168.0.19:8081/"
+#define BASE_URL @"http://115.159.16.143/"
+    #endif
+#endif
+
+#ifndef APPDELEGATE
+#define APPDELEGATE (AppDelegate*)([UIApplication sharedApplication].delegate)
+#endif
+
+#ifndef DEFAULT_HEAD_IMG
+#define DEFAULT_HEAD_IMG [NSString stringWithFormat:@"defaultHead%d.png", arc4random()%3 + 1]
+#endif
+
+#ifndef DEFAULT_CITY
+#define DEFAULT_CITY @"defaultCity"
+#endif
+
+#ifndef LOCATION_CITY
+#define LOCATION_CITY @"locationCity"
+#endif
+
+#ifndef USER_SELECTED_CITY
+#define USER_SELECTED_CITY @"userSelectCity"
+#endif
+
+#ifndef TOP_VIEW_H
+#define TOP_VIEW_H 40
+#endif
+
+#ifndef CONTENT_OFFSET
+#define CONTENT_OFFSET 34
+#endif
+
+#ifndef COVER_VIEW_H
+#define COVER_VIEW_H 155.0
+#endif
+
+#ifndef PAGE_DATA_COUNT
+#define PAGE_DATA_COUNT 10
+#endif
+
+//登录页面TAG
+#ifndef LOGIN_VIEW_TAG
+#define LOGIN_VIEW_TAG 666
+#endif
+
+//预约已取消
+#ifndef CANCEL
+#define CANCEL 0
+#endif
+//等待养生顾问确认
+#ifndef WAIT_CONFIRM
+#define WAIT_CONFIRM 1
+#endif
+//养生顾问已确认
+#ifndef CONFIRMED
+#define CONFIRMED 2
+#endif
+//已经使用了 但还没评价
+#ifndef WAIT_COMMENT
+#define WAIT_COMMENT 3
+#endif
+//已经评价了
+#ifndef COMMENTED
+#define COMMENTED 4
+#endif
+
+//页面title视图的子视图tag
+#ifndef LEFT_BUTTON
+#define LEFT_BUTTON 1000
+#endif
+#ifndef TITLE
+#define TITLE 1001
+#endif
+#ifndef RIGHT_BUTTON
+#define RIGHT_BUTTON 1002
+#endif
+#ifndef TITLE_BACKGROUND
+#define TITLE_BACKGROUND 1003
+#endif
+
+
+//未评价预约单id
+#ifndef NOT_RESERVATION
+#define NOT_RESERVATION @"reservationid"
+#endif
+
+//用户信息缓存key
+#ifndef USER_CACHE_KEYS
+#define USER_CACHE_KEYS @"userCacheKeys"
+#endif
+
+#ifndef RGBA//(r,g,b,a)
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a/255.0]
+#endif
+
+#ifndef LABEL_DEFAULT_TEXT_COLOR
+#define LABEL_DEFAULT_TEXT_COLOR [[UIColor alloc] initWithRed:0.142 green:0.142 blue:0.142 alpha:1.0]
+#endif
+
+#ifndef LABEL_TITLE_TEXT_COLOR
+#define LABEL_TITLE_TEXT_COLOR [[UIColor alloc] initWithRed:0.06 green:0.06 blue:0.06 alpha:1.0]
+#endif
+
+#ifndef LABEL_GRAY_TEXT_COLOR
+#define LABEL_GRAY_TEXT_COLOR [[UIColor alloc] initWithRed:0.284 green:0.284 blue:0.284 alpha:1.0]
+#endif
+
+#ifndef LABEL_PRICE_TEXT_COLOR
+#define LABEL_PRICE_TEXT_COLOR [[UIColor alloc] initWithRed:1.0 green:0.118 blue:0.118 alpha:1.0]
+#endif
+
+#ifndef LABEL_TITLE_TEXT_FONT
+#define LABEL_TITLE_TEXT_FONT [UIFont boldSystemFontOfSize:15]
+#endif
+
+#ifndef LABEL_LARGE_TEXT_FONT
+#define LABEL_LARGE_TEXT_FONT [UIFont systemFontOfSize:15]
+#endif
+
+#ifndef LABEL_DEFAULT_TEXT_FONT
+#define LABEL_DEFAULT_TEXT_FONT [UIFont systemFontOfSize:13.5]
+#endif
+
+#ifndef LABEL_SMALL_TEXT_FONT
+#define LABEL_SMALL_TEXT_FONT [UIFont systemFontOfSize:12]
+#endif
+
+#ifndef BUTTON_TEXT_FONT
+#define BUTTON_TEXT_FONT [UIFont systemFontOfSize:13.5]
+#endif
